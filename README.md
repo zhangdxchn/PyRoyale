@@ -11,11 +11,15 @@ You can discuss about the game and this emulator in [our discord](https://discor
 If you are on Windows and don't want to install python to run this server, you can use the latest binary released in the [releases page](https://github.com/Igoorx/PyRoyale/releases).
 
 ## Dependencies
-This project uses Python <b>2.7</b> and the following dependencies:
-- Twisted
-- AutoBahn
-- Emoji
-- ConfigParser
+This project uses Python <b>3.7</b> and the following dependencies:
+- twisted
+- autobahn
+- emoji
+- configparser
+- jsonschema
+- discord_webhook **(OPTIONAL)**
+- captcha **(OPTIONAL)**
+- argon2 **(OPTIONAL)**
 
 <b>If you are on Windows, the module <u>pypiwin32</u> may also be required.</b> 
 
